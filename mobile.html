@@ -1,7 +1,6 @@
 <html xmlns:ganttproject="http://ganttproject.sf.net/">
     <head>
         <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="author" content="Alexandre THOMAS">
         <title>GanttProject - Mobile App AGIS</title>
         <style>
 	    A:link {
@@ -15,6 +14,19 @@
 	    A:hover {
 		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
 		FONT-SIZE: 14px ; COLOR: white ; BACKGROUND: #6d9ec6;
+	    }
+	    .notes {
+	      padding-left: 10px;
+	    }
+	    .notes pre {
+	      font-family: Arial, Helvetica;
+	      font-size: 10px;
+	      margin-top: 0px;
+	      padding-top: 0px;
+	      margin-bottom: 5px;
+	    }
+	    .attachment {
+	      padding-left: 10px;
 	    }
 	    .attachment a:link {
 	      font-weight: normal;
@@ -67,25 +79,36 @@
     </head>
     <body bgcolor="white">
         <center>
-            <br>
-            <br>
+            <style>
+div.project_name {
+  font-size: 150%;
+  color: black;
+  font-weight: bold;
+  border-top: solid #6d9ec6 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+}
+div.page_links {
+  background: #6d9ec6;
+  text-align: center;
+}
+</style>
             <center>
-                <table width="100%" border="0">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
                     <tr>
-                        <td bgcolor="#dddddd"><font size="+2" color="#0000000"><b>Aventus Mobile App</b></font></td>
+                        <td bgcolor="#dddddd">
+                            <div class="project_name">Aventus Mobile App</div>
+                        </td>
                     </tr>
-                </table>
-            </center>
-            <center>
-                <table width="100%" border="0">
                     <tr>
-                        <td bgcolor="#6d9ec6">
-                            <center>
+                        <td>
+                            <div class="page_links">
                                 <a href="Mobile App AGIS.html"></a>  |
-    <a href="Mobile App AGIS-chart.html">Диаграмма Ганта</a> |
-    <a href="Mobile App AGIS-tasks.html">Задача</a> |
-    <a href="Mobile App AGIS-resources.html">Человек</a>
-                            </center>
+          <a href="Mobile App AGIS-chart.html">Диаграмма Ганта</a> |
+          <a href="Mobile App AGIS-tasks.html">Задача</a> |
+          <a href="Mobile App AGIS-resources.html">Человек</a>
+                            </div>
                         </td>
                     </tr>
                 </table>
@@ -130,7 +153,7 @@ Requirements - https://confluence.aventus.work/x/CgHS</pre>
             <tr>
                 <td bgcolor="#6d9ec6" width="50%"><font color="#FFFFFF"><b>Ganttproject (2.8.11 Pilsen (build 2396))</b></font></td><td bgcolor="#6d9ec6" width="50%" align="right"><b><a href="http://ganttproject.biz">ganttproject.biz</a></b>
                     <br>
-                    <b>08.07.2020 - 14:30:01</b></td>
+                    <b>08.07.2020 - 14:35:07</b></td>
             </tr>
         </table>
     </body>
